@@ -1,0 +1,16 @@
+<svg width="1920" height="1017" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0.84647" x2="0.13112" y1="0.68478" x1="0.9154" id="paint0_linear_2_39">
+   <stop style="--darkreader-inline-stopcolor:#2f132e;" stop-color="#590D56"/>
+   <stop style="--darkreader-inline-stopcolor:#4b214a;" stop-color="#8C1688" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="1019" width="1922" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" id="svg_1" fill="url(#paint0_linear_2_39)" d="m1536.13473,11.50938c-408.95031,104.36822 -409.858,601.58939 -943.7237,402.17673c-184.34546,-68.85815 -436.02493,0.45304 -591.74432,65.51848l0,58.21905c0,0 411.85731,-189.29074 811.05233,282.45939c399.19503,471.75014 1110.94843,-51.4515 1110.94843,-51.4515l0,-642.94318c-156.61241,-75.98598 -222.82946,-155.75666 -386.53275,-113.97896z"/>
+ </g>
+</svg>
