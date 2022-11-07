@@ -22,8 +22,8 @@ $(function(){
     $('.sl').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        prevArrow: "<img src='/assets/img/intro/slider/prev-arrow.svg' class='prev-arrow' alt='1'>",
-        nextArrow: "<img src='/assets/img/intro/slider/next-arrow.svg' class='next-arrow' alt='2'>",
+        prevArrow: "<img src='assets/img/intro/slider/prev-arrow.svg' class='prev-arrow' alt='1'>",
+        nextArrow: "<img src='assets/img/intro/slider/next-arrow.svg' class='next-arrow' alt='2'>",
         speed: 300,
         fade: true,
         responsive: [
@@ -31,8 +31,8 @@ $(function(){
             breakpoint: 992,
             settings: {
               fade: false,
-              prevArrow: "<img src='/assets/img/intro/slider/larrow-intro.png' class='prev-arrow' alt='1'>",
-              nextArrow: "<img src='/assets/img/intro/slider/rarrow-intro.png' class='next-arrow' alt='2'>",
+              prevArrow: "<img src='assets/img/intro/slider/larrow-intro.png' class='prev-arrow' alt='1'>",
+              nextArrow: "<img src='assets/img/intro/slider/rarrow-intro.png' class='next-arrow' alt='2'>",
             }
           }
         ]
@@ -48,6 +48,7 @@ $('.marquee').marquee({
 });
 
 /*Prodution Slider*/
+$(function(){
 $('.sl2').slick({
     infinite: false,
     slidesToShow: 2,
@@ -55,8 +56,8 @@ $('.sl2').slick({
     variableWidth: true,
     draggable: false,
     swipe: false,
-    prevArrow: "<img src='/assets/img/intro/slider/prev-arrow.svg' class='prev-arrow-production' alt='1'>",
-    nextArrow: "<img src='/assets/img/intro/slider/next-arrow.svg' class='next-arrow-production' alt='2'>",
+    prevArrow: "<img src='assets/img/intro/slider/prev-arrow.svg' class='prev-arrow-production' alt='1'>",
+    nextArrow: "<img src='assets/img/intro/slider/next-arrow.svg' class='next-arrow-production' alt='2'>",
     responsive: [
       {
         breakpoint: 992,
@@ -77,8 +78,9 @@ $('.sl2').slick({
       }
     ]
   });
-
+});
 /*Opinion Slider */
+$(function(){
   $('.sl3').slick({
     dots: true,
     infinite: true,
@@ -87,7 +89,7 @@ $('.sl2').slick({
     autoplay: true,
     autoplaySpeed: 2000,
   });
-
+});
 
 
 /*POPUP*/
